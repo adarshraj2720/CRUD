@@ -1,0 +1,219 @@
+/* FileExplorer.css
+.file-explorer-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 25%;
+  border-right: 2px solid #ddd;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.tree-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.tree-item:hover {
+  background-color: #e0e0e0;
+}
+
+.tree-children {
+  margin-left: 20px;
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #333;
+}
+
+.input-field {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.add-button,
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  margin-left: auto;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+} */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.report-cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.report-card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  border-left: 5px solid transparent;
+}
+
+.report-card.active {
+  border-left: 5px solid green;
+}
+
+.report-section {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.subtext {
+  color: gray;
+}
+
+.tabs {
+  display: flex;
+  gap: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+.tabs span {
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.active-tab {
+  color: blue;
+  border-bottom: 2px solid blue;
+  font-weight: bold;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.generate-btn {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.table-container {
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.pass {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
+
+.download-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.warning {
+  margin-top: 15px;
+  background: #ffcc00;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background: white;
+}
+
+.pagination .active {
+  background: blue;
+  color: white;
+}
